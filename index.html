@@ -623,6 +623,14 @@ Then rewrite it as an improved version.</div>
 
   <!-- LAB 6.1 HALLUCINATIONS -->
   <h3 style="font-size:24px;margin:36px 0 6px">Lab 6.1 — Triggering Hallucinations</h3>
+
+  <div class="card" style="border-color:#3dd6c344">
+    <h4 style="color:var(--teal)">🎓 Home Turf — What's PSP?</h4>
+    <p style="font-size:14.5px">At Scaler, <b style="color:var(--ink)">PSP</b> stands for <b>Problem-Solving Percentage</b> — the score a student gets on the assignment they attempt right after finishing a live lecture. Every student here knows that instantly. An LLM doesn't — "PSP" isn't a term it learned with that meaning.</p>
+    <p style="font-size:14.5px">Try it yourself: ask ChatGPT or Gemini <i>"What is PSP?"</i> with no context. It won't say "I don't know." It'll confidently guess something plausible-sounding — a payment gateway, a government scheme, a gaming term — anything those three letters could stand for. It never lands on "Problem-Solving Percentage," because that meaning lives only in your company's world, not in its training data.</p>
+    <p style="font-size:14.5px;color:var(--teal)">That's hallucination in one line: when an LLM doesn't actually know something, it doesn't stay quiet — it predicts the most plausible-sounding answer and states it with full confidence.</p>
+  </div>
+
   <p style="color:var(--ink2);font-size:15px">Remember from Class 1: an LLM is a next-word prediction engine. It predicts what text <em>should</em> come next. Sometimes what sounds right isn't right.</p>
   <div class="note pro"><b>Important Note (2026):</b> Modern LLMs are much better at saying "I don't know" than they were in 2023. Some of these tests might not fool the AI — that's a good sign! But even the best models still hallucinate under the right conditions.</div>
 
@@ -730,12 +738,7 @@ Then rewrite it as an improved version.</div>
   <!-- LAB 6.4 OUTPUT BIAS -->
   <h3 style="font-size:24px;margin:40px 0 6px">Lab 6.4 — Output Bias</h3>
   <div class="defBox"><span class="term">Output Bias</span>
-    <p>When an AI systematically produces skewed, stereotyped, or unfair outputs because its training data contained those patterns. The AI doesn't "intend" to be biased — it reproduces statistical patterns in the data it learned from, including human prejudices.</p>
-  </div>
-
-  <div class="svgWrap">
-    <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/190/868/original/7.png?1776341318" alt="Output bias illustration" style="max-width:400px">
-    <div class="svgCap">BIAS IS A DATA QUALITY PROBLEM THAT BECOMES A UX PROBLEM</div>
+    <p>When an AI gives unfair or stereotyped answers because that's what it saw again and again in its training data. It's just repeating the patterns it learned, including our own human biases.</p>
   </div>
 
   <div class="slackDrop"><div class="av">💬</div><div><span class="nm">Chat Drop — before the reveal</span><span class="tm">10 sec</span><p>"Before I show you the AI's answer — take 10 seconds. The prompt just says 'describe a typical day for the team physiotherapist.' No gender mentioned. What pronoun do you think the AI will use? Drop your guess in chat now."</p></div></div>
